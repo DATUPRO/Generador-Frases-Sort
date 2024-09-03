@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const frases = [
-        "La vida és bella.",
-        "Cada dia és una nova oportunitat.",
-        "Somriu, és gratis!",
-        "El futur és avui.",
+        "La vida Ã©s bella.",
+        "Cada dia Ã©s una nova oportunitat.",
+        "Somriu, Ã©s gratis!",
+        "El futur Ã©s avui.",
         "Confia en tu mateix."
     ];
 
