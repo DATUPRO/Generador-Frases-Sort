@@ -10,8 +10,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            flex-direction: column; /* Això fa que la imatge es mostri sobre el text */
             height: 100vh;
-            background-color: #FFA500;
+            background-color: #FFA500; /* Color taronja */
             margin: 0;
         }
         #frase {
@@ -20,20 +21,16 @@
             border: 1px solid #ccc;
             background-color: #fff;
             text-align: center;
-            position: relative;
         }
-        #frase img {
-            display: block;
-            margin: 0 auto 10px auto; /* Centra la imatge i afegeix espai per sota */
-            max-width: 50px; /* Ajusta aquesta mida segons el que prefereixis */
+        img {
+            max-width: 100px; /* Ajusta la mida de la imatge segons les teves necessitats */
+            margin-bottom: 20px; /* Afegeix espai entre la imatge i el text */
         }
     </style>
 </head>
 <body>
-    <div id="frase">
-        <img src="icona_sort.png" alt="Icona de Sort">
-        Carregant...
-    </div>
+    <img src="icona.png" alt="Icona"> <!-- Afegeix la imatge aquí -->
+    <div id="frase">Carregant...</div>
     <script src="script.js"></script>
 </body>
 </html>
