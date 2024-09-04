@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sort</title>
+    <title>Frase Aleatòria</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,11 +20,20 @@
             border: 1px solid #ccc;
             background-color: #fff;
             text-align: center;
+            position: relative;
+        }
+        #frase img {
+            display: block;
+            margin: 0 auto 10px auto; /* Centra la imatge i afegeix espai per sota */
+            max-width: 50px; /* Ajusta aquesta mida segons el que prefereixis */
         }
     </style>
 </head>
 <body>
-    <div id="frase">Carregant...</div>
+    <div id="frase">
+        <img src="icona_sort.png" alt="Icona de Sort">
+        Carregant...
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
