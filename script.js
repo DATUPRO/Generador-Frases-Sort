@@ -5,8 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
         "Vés a la casella de sortida. Cobres 200 €.",
         "Vés al Ferrocarril Reading. Si passes per la casella de sortida, cobres 200 €.",
         "Vés al ferrocarril més proper. Si és propietat d'un altre jugador, paga el doble del lloguer que li deus. Si no és propietat de ningú, la pots comprar.",
-        "Avança fins a l'Avinguda Illinois. Si passes per la casella de sortida, cobres 200 €.",
-        "Avança fins a l'Avinguda St. Charles. Si passes per la casella de sortida, cobres 200 €.",
+        "Avança fins al carrer Maximí Fornés. Si passes per la casella de sortida, cobres 200 €.",
+        "Avança fins al carrer Francesc Macià . Si passes per la casella de sortida, cobres 200 €.",
         "Avança fins al Passeig de Tablado (Boardwalk).",
         "Vés al ferrocarril més proper. Si és propietat d'un altre jugador, paga el doble del lloguer que li deus. Si no és propietat de ningú, la pots comprar.",
         "Avança fins a la Companyia de Serveis Públics més propera. Si no és propietat de ningú, la pots comprar. Si és propietat d'un altre jugador, llença els daus i paga 10 vegades el nombre que surti en els daus.",
@@ -16,6 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Sur de la presó gratis. Aquesta targeta es pot conservar fins que s'utilitzi o es vengui.",
         "Paga una multa per excés de velocitat de 15 €.",
         "Has estat elegit president del consell d'administració. Paga 50 € a cada jugador."
+        "T'ha contractat el Barça com a nova promesa, paga 400€"
     ];
 
     const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
