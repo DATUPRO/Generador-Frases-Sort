@@ -1,4 +1,4 @@
-I'document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', () => {
     const frases = [
         "Has guanyat el segon premi en un concurs de bellesa. Cobres 10 €.",
         "Vas a la presó. Vés directament a la presó, no passis per la casella de sortida, no cobris 200 €.",
