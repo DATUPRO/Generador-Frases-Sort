@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', () => {
+I'document.addEventListener('DOMContentLoaded', () => {
     const frases = [
         "Has guanyat el segon premi en un concurs de bellesa. Cobres 10 €.",
         "Vas a la presó. Vés directament a la presó, no passis per la casella de sortida, no cobris 200 €.",
@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "Fas reparacions a totes les teves propietats: paga 25 € per cada casa i 100 € per cada hotel.",
         "Sur de la presó gratis. Aquesta targeta es pot conservar fins que s'utilitzi o es vengui.",
         "Paga una multa per excés de velocitat de 15 €.",
-        "Has estat elegit president del consell d'administració. Paga 50 € a cada jugador."
+        "Has estat elegit president del consell d'administració. Paga 50 € a cada jugador.",
         "T'ha contractat el Barça com a nova promesa, paga 400€"
     ];
 
