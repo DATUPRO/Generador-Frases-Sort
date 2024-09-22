@@ -14,10 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
         "El banc et paga un dividend de 50 €.",
         "Fas reparacions a totes les teves propietats: paga 25 € per cada casa i 100 € per cada hotel.",
         "Sur de la presó gratis. Aquesta targeta es pot conservar fins que s'utilitzi o es vengui.",
-        "Paga una multa per excés de velocitat de 15 €.",
-        "Has estat elegit president del consell d'administració. Paga 50 € a cada jugador.",
-        "T'ha contractat el Barça com a nova promesa, paga 400€"
-    ];
+        "Paga una multa per excés de velocitat de 15 €.","Has estat elegit president del consell d'administració. Paga 50 € a cada jugador.","T'ha contractat el Barça com a nova promesa, paga 400€"];
 
     const fraseAleatoria = frases[Math.floor(Math.random() * frases.length)];
     document.getElementById('frase').innerText = fraseAleatoria;
